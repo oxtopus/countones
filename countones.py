@@ -1,16 +1,5 @@
 ''' Four examples of a function that, given an integer, returns the number of ones in that number's
-    binary representation.
-    
-    Command line examples:
-
-    $ python countones.py 7
-    7 3 3 3 3
-
-    $ date +%s | xargs python countones.py
-    1315349090 14 14 14 14
-
-    $ uuid -F siv | xargs python countones.py
-    306710408896679659534661378670656939113 65 65 65 65        
+    binary representation.    
 '''
 
 def countonesiterative(n):
